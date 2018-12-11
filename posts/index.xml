@@ -22,6 +22,16 @@ Nov. 11, 2018 marks the 100th year since World War I ended. Soldiers, mostly edu
     </item>
     
     <item>
+      <title>NY Times Bestsellers</title>
+      <link>http://ethannelson.github.io/posts/ny-times-react/</link>
+      <pubDate>Thu, 12 Jul 2018 19:40:04 -0600</pubDate>
+      
+      <guid>http://ethannelson.github.io/posts/ny-times-react/</guid>
+      <description>A simple React app that uses the NY Times Books API and the Google Books API to get information about best sellers, as well as reviews. This is a work in progress!
+ </description>
+    </item>
+    
+    <item>
       <title>Suggest-a-Poem</title>
       <link>http://ethannelson.github.io/posts/poems/</link>
       <pubDate>Tue, 17 Apr 2018 21:50:01 -0600</pubDate>
@@ -46,6 +56,15 @@ Nov. 11, 2018 marks the 100th year since World War I ended. Soldiers, mostly edu
       
       <guid>http://ethannelson.github.io/posts/high-school-football/</guid>
       <description>Since 2003, the number of schools fielding 11-man football teams has held steady, but the number of players has dropped by about 4,000, according to data from the National Federation of State High School Associations. This is a story I wrote for the Minneapolis Star Tribune&amp;rsquo;s Data Drop feature, a series in which reporters explain the news via data and graphics, à la the New York Times&amp;rsquo; The Upshot.</description>
+    </item>
+    
+    <item>
+      <title>Average Gophers football attendance falls after 30-year high</title>
+      <link>http://ethannelson.github.io/posts/gophers-football/</link>
+      <pubDate>Wed, 07 Dec 2016 21:28:24 -0600</pubDate>
+      
+      <guid>http://ethannelson.github.io/posts/gophers-football/</guid>
+      <description>After near-record numbers, average Gophers football attendance fell in 2016. The team&amp;rsquo;s coach chalked it up to the Gophs&amp;rsquo; poor record. I used a static graphic made with d3.js to explain the trend for the Minnesota Daily.</description>
     </item>
     
     <item>

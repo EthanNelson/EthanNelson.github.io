@@ -29,5 +29,14 @@
       <description>Since 2003, the number of schools fielding 11-man football teams has held steady, but the number of players has dropped by about 4,000, according to data from the National Federation of State High School Associations. This is a story I wrote for the Minneapolis Star Tribune&amp;rsquo;s Data Drop feature, a series in which reporters explain the news via data and graphics, à la the New York Times&amp;rsquo; The Upshot.</description>
     </item>
     
+    <item>
+      <title>Average Gophers football attendance falls after 30-year high</title>
+      <link>http://ethannelson.github.io/posts/gophers-football/</link>
+      <pubDate>Wed, 07 Dec 2016 21:28:24 -0600</pubDate>
+      
+      <guid>http://ethannelson.github.io/posts/gophers-football/</guid>
+      <description>After near-record numbers, average Gophers football attendance fell in 2016. The team&amp;rsquo;s coach chalked it up to the Gophs&amp;rsquo; poor record. I used a static graphic made with d3.js to explain the trend for the Minnesota Daily.</description>
+    </item>
+    
   </channel>
 </rss>
