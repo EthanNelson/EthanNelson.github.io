@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tf Idf on Ethan Nelson - Data Reporter</title>
-    <link>https://ethannelson.github.io/tags/tf-idf/</link>
+    <link>http://ethannelson.github.io/tags/tf-idf/</link>
     <description>Recent content in Tf Idf on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Oct 2018 18:27:14 -0600</lastBuildDate>
     
-	<atom:link href="https://ethannelson.github.io/tags/tf-idf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ethannelson.github.io/tags/tf-idf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Text Mining the Poetry of World War I</title>
-      <link>https://ethannelson.github.io/posts/wwi-poetry/</link>
+      <link>http://ethannelson.github.io/posts/wwi-poetry/</link>
       <pubDate>Mon, 29 Oct 2018 18:27:14 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/posts/wwi-poetry/</guid>
+      <guid>http://ethannelson.github.io/posts/wwi-poetry/</guid>
       <description>Text Mining the Poetry of World War I
 Nov. 11, 2018 marks the 100th year since World War I ended. Soldiers, mostly educated British officers, transformed war poetry through uncompromisingly realistic depictions of life in the trenches. Poets like Siegfried Sassoon, Robert Graves, and Wilfred Owen, for one the first times in history, depicted war in horrific, dark language. An analysis using R&amp;rsquo;s tidy text library shows how they wrote about their experiences.</description>
     </item>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sports on Ethan Nelson - Data Reporter</title>
-    <link>https://ethannelson.github.io/tags/sports/</link>
+    <link>http://ethannelson.github.io/tags/sports/</link>
     <description>Recent content in Sports on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 04 Mar 2017 19:30:50 -0600</lastBuildDate>
     
-	<atom:link href="https://ethannelson.github.io/tags/sports/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ethannelson.github.io/tags/sports/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Black coaches vanish from Big Ten basketball, once a model for diversity</title>
-      <link>https://ethannelson.github.io/posts/basketball/</link>
+      <link>http://ethannelson.github.io/posts/basketball/</link>
       <pubDate>Sat, 04 Mar 2017 19:30:50 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/posts/basketball/</guid>
+      <guid>http://ethannelson.github.io/posts/basketball/</guid>
       <description>In 2017, there were no nonwhite men&amp;rsquo;s basketball coaches in the Big Ten, the first time that had happened since the &amp;lsquo;80s. This is a story exploring the historical racial makeup in men&amp;rsquo;s college basketball. I did the analysis and made the graphics for this story by college basketball beat reporter Marcus Fuller. This story won an award from the National Association of Black Journalists.</description>
     </item>
     
     <item>
       <title>High school football participation declining — but not just because of concussions</title>
-      <link>https://ethannelson.github.io/posts/high-school-football/</link>
+      <link>http://ethannelson.github.io/posts/high-school-football/</link>
       <pubDate>Thu, 02 Feb 2017 21:22:44 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/posts/high-school-football/</guid>
+      <guid>http://ethannelson.github.io/posts/high-school-football/</guid>
       <description>Since 2003, the number of schools fielding 11-man football teams has held steady, but the number of players has dropped by about 4,000, according to data from the National Federation of State High School Associations. This is a story I wrote for the Minneapolis Star Tribune&amp;rsquo;s Data Drop feature, a series in which reporters explain the news via data and graphics, à la the New York Times&amp;rsquo; The Upshot.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on Ethan Nelson - Data Reporter</title>
-    <link>https://ethannelson.github.io/tags/education/</link>
+    <link>http://ethannelson.github.io/tags/education/</link>
     <description>Recent content in Education on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Sep 2016 21:16:55 -0600</lastBuildDate>
     
-	<atom:link href="https://ethannelson.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ethannelson.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>University plan to trim admin costs appears to be ahead of schedule</title>
-      <link>https://ethannelson.github.io/posts/administrative-expenses/</link>
+      <link>http://ethannelson.github.io/posts/administrative-expenses/</link>
       <pubDate>Fri, 23 Sep 2016 21:16:55 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/posts/administrative-expenses/</guid>
+      <guid>http://ethannelson.github.io/posts/administrative-expenses/</guid>
       <description>After a report accused the University of Minnesota of administrative bloat, the school planned to cut millions in spending. This is a story I helped explain with data analysis and a d3.js graphic with MN Daily reporter Kevin Beckman</description>
     </item>
     

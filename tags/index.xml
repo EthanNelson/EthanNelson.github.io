@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ethan Nelson - Data Reporter</title>
-    <link>https://ethannelson.github.io/tags/</link>
+    <link>http://ethannelson.github.io/tags/</link>
     <description>Recent content in Tags on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 04 Mar 2017 19:30:50 -0600</lastBuildDate>
     
-	<atom:link href="https://ethannelson.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ethannelson.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>C3.js</title>
-      <link>https://ethannelson.github.io/tags/c3.js/</link>
+      <link>http://ethannelson.github.io/tags/c3.js/</link>
       <pubDate>Sat, 04 Mar 2017 19:30:50 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/c3.js/</guid>
+      <guid>http://ethannelson.github.io/tags/c3.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>D3.js</title>
-      <link>https://ethannelson.github.io/tags/d3.js/</link>
+      <link>http://ethannelson.github.io/tags/d3.js/</link>
       <pubDate>Sat, 04 Mar 2017 19:30:50 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/d3.js/</guid>
+      <guid>http://ethannelson.github.io/tags/d3.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Analysis</title>
-      <link>https://ethannelson.github.io/tags/data-analysis/</link>
+      <link>http://ethannelson.github.io/tags/data-analysis/</link>
       <pubDate>Mon, 29 Oct 2018 18:27:14 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/data-analysis/</guid>
+      <guid>http://ethannelson.github.io/tags/data-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datawrapper</title>
-      <link>https://ethannelson.github.io/tags/datawrapper/</link>
+      <link>http://ethannelson.github.io/tags/datawrapper/</link>
       <pubDate>Thu, 02 Feb 2017 21:22:44 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/datawrapper/</guid>
+      <guid>http://ethannelson.github.io/tags/datawrapper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Education</title>
-      <link>https://ethannelson.github.io/tags/education/</link>
+      <link>http://ethannelson.github.io/tags/education/</link>
       <pubDate>Fri, 23 Sep 2016 21:16:55 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/education/</guid>
+      <guid>http://ethannelson.github.io/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://ethannelson.github.io/tags/r/</link>
+      <link>http://ethannelson.github.io/tags/r/</link>
       <pubDate>Mon, 29 Oct 2018 18:27:14 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/r/</guid>
+      <guid>http://ethannelson.github.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sports</title>
-      <link>https://ethannelson.github.io/tags/sports/</link>
+      <link>http://ethannelson.github.io/tags/sports/</link>
       <pubDate>Sat, 04 Mar 2017 19:30:50 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/sports/</guid>
+      <guid>http://ethannelson.github.io/tags/sports/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tf Idf</title>
-      <link>https://ethannelson.github.io/tags/tf-idf/</link>
+      <link>http://ethannelson.github.io/tags/tf-idf/</link>
       <pubDate>Mon, 29 Oct 2018 18:27:14 -0600</pubDate>
       
-      <guid>https://ethannelson.github.io/tags/tf-idf/</guid>
+      <guid>http://ethannelson.github.io/tags/tf-idf/</guid>
       <description></description>
     </item>
     
