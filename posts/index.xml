@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ethan Nelson - Data Reporter</title>
-    <link>http://www.ethannelson.github.com/posts/</link>
+    <link>https://ethannelson.github.io/posts/</link>
     <description>Recent content in Posts on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Oct 2018 18:27:14 -0600</lastBuildDate>
     
-	<atom:link href="http://www.ethannelson.github.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ethannelson.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Text Mining the Poetry of World War I</title>
-      <link>http://www.ethannelson.github.com/posts/wwi-poetry/</link>
+      <link>https://ethannelson.github.io/posts/wwi-poetry/</link>
       <pubDate>Mon, 29 Oct 2018 18:27:14 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/wwi-poetry/</guid>
+      <guid>https://ethannelson.github.io/posts/wwi-poetry/</guid>
       <description>Text Mining the Poetry of World War I
 Nov. 11, 2018 marks the 100th year since World War I ended. Soldiers, mostly educated British officers, transformed war poetry through uncompromisingly realistic depictions of life in the trenches. Poets like Siegfried Sassoon, Robert Graves, and Wilfred Owen, for one the first times in history, depicted war in horrific, dark language. An analysis using R&amp;rsquo;s tidy text library shows how they wrote about their experiences.</description>
     </item>
     
     <item>
       <title>Suggest-a-Poem</title>
-      <link>http://www.ethannelson.github.com/posts/poems/</link>
+      <link>https://ethannelson.github.io/posts/poems/</link>
       <pubDate>Tue, 17 Apr 2018 21:50:01 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/poems/</guid>
+      <guid>https://ethannelson.github.io/posts/poems/</guid>
       <description>This is a small node app that will return a poem based on an input word. This was based on Brandon Morelli&amp;rsquo;s tutorial.</description>
     </item>
     
     <item>
       <title>Black coaches vanish from Big Ten basketball, once a model for diversity</title>
-      <link>http://www.ethannelson.github.com/posts/basketball/</link>
+      <link>https://ethannelson.github.io/posts/basketball/</link>
       <pubDate>Sat, 04 Mar 2017 19:30:50 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/basketball/</guid>
+      <guid>https://ethannelson.github.io/posts/basketball/</guid>
       <description>In 2017, there were no nonwhite men&amp;rsquo;s basketball coaches in the Big Ten, the first time that had happened since the &amp;lsquo;80s. This is a story exploring the historical racial makeup in men&amp;rsquo;s college basketball. I did the analysis and made the graphics for this story by college basketball beat reporter Marcus Fuller. This story won an award from the National Association of Black Journalists.</description>
     </item>
     
     <item>
       <title>High school football participation declining — but not just because of concussions</title>
-      <link>http://www.ethannelson.github.com/posts/high-school-football/</link>
+      <link>https://ethannelson.github.io/posts/high-school-football/</link>
       <pubDate>Thu, 02 Feb 2017 21:22:44 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/high-school-football/</guid>
+      <guid>https://ethannelson.github.io/posts/high-school-football/</guid>
       <description>Since 2003, the number of schools fielding 11-man football teams has held steady, but the number of players has dropped by about 4,000, according to data from the National Federation of State High School Associations. This is a story I wrote for the Minneapolis Star Tribune&amp;rsquo;s Data Drop feature, a series in which reporters explain the news via data and graphics, à la the New York Times&amp;rsquo; The Upshot.</description>
     </item>
     
     <item>
       <title>University plan to trim admin costs appears to be ahead of schedule</title>
-      <link>http://www.ethannelson.github.com/posts/administrative-expenses/</link>
+      <link>https://ethannelson.github.io/posts/administrative-expenses/</link>
       <pubDate>Fri, 23 Sep 2016 21:16:55 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/administrative-expenses/</guid>
+      <guid>https://ethannelson.github.io/posts/administrative-expenses/</guid>
       <description>After a report accused the University of Minnesota of administrative bloat, the school planned to cut millions in spending. This is a story I helped explain with data analysis and a d3.js graphic with MN Daily reporter Kevin Beckman</description>
     </item>
     
