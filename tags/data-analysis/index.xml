@@ -2,49 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Analysis on Ethan Nelson - Data Reporter</title>
-    <link>http://ethannelson.github.io/tags/data-analysis/</link>
+    <link>http://www.ethannelson.github.com/tags/data-analysis/</link>
     <description>Recent content in Data Analysis on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Oct 2018 18:27:14 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 17 Dec 2018 23:03:56 -0600</lastBuildDate>
     
-	<atom:link href="http://ethannelson.github.io/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.ethannelson.github.com/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Americans are set to spend more on their pets than they have since 2001</title>
+      <link>http://www.ethannelson.github.com/posts/pets/</link>
+      <pubDate>Mon, 17 Dec 2018 23:03:56 -0600</pubDate>
+      
+      <guid>http://www.ethannelson.github.com/posts/pets/</guid>
+      <description>Inspired by this article by the New York Times, in which home decor and consumer news writer Michelle Higgins tells us about ways to spy on your dogs, I took a look at how much Americans spend on their domestic animals each year.
+Americans are set to spend more on their pets in 2018 then they have in any of the past 16 years. Collectively, Americans are expected to spend more than $72 billion this year according to data from the American Pet Products Association.</description>
+    </item>
+    
+    <item>
       <title>Text Mining the Poetry of World War I</title>
-      <link>http://ethannelson.github.io/posts/wwi-poetry/</link>
+      <link>http://www.ethannelson.github.com/posts/wwi-poetry/</link>
       <pubDate>Mon, 29 Oct 2018 18:27:14 -0600</pubDate>
       
-      <guid>http://ethannelson.github.io/posts/wwi-poetry/</guid>
+      <guid>http://www.ethannelson.github.com/posts/wwi-poetry/</guid>
       <description>Text Mining the Poetry of World War I
 Nov. 11, 2018 marks the 100th year since World War I ended. Soldiers, mostly educated British officers, transformed war poetry through uncompromisingly realistic depictions of life in the trenches. Poets like Siegfried Sassoon, Robert Graves, and Wilfred Owen, for one the first times in history, depicted war in horrific, dark language. An analysis using R&amp;rsquo;s tidy text library shows how they wrote about their experiences.</description>
     </item>
     
     <item>
       <title>Black coaches vanish from Big Ten basketball, once a model for diversity</title>
-      <link>http://ethannelson.github.io/posts/basketball/</link>
+      <link>http://www.ethannelson.github.com/posts/basketball/</link>
       <pubDate>Sat, 04 Mar 2017 19:30:50 -0600</pubDate>
       
-      <guid>http://ethannelson.github.io/posts/basketball/</guid>
+      <guid>http://www.ethannelson.github.com/posts/basketball/</guid>
       <description>In 2017, there were no nonwhite men&amp;rsquo;s basketball coaches in the Big Ten, the first time that had happened since the &amp;lsquo;80s. This is a story exploring the historical racial makeup in men&amp;rsquo;s college basketball. I did the analysis and made the graphics for this story by college basketball beat reporter Marcus Fuller. This story won an award from the National Association of Black Journalists.</description>
     </item>
     
     <item>
-      <title>Average Gophers football attendance falls after 30-year high</title>
-      <link>http://ethannelson.github.io/posts/gophers-football/</link>
-      <pubDate>Wed, 07 Dec 2016 21:28:24 -0600</pubDate>
-      
-      <guid>http://ethannelson.github.io/posts/gophers-football/</guid>
-      <description>After near-record numbers, average Gophers football attendance fell in 2016. The team&amp;rsquo;s coach chalked it up to the Gophs&amp;rsquo; poor record. I used a static graphic made with d3.js to explain the trend for the Minnesota Daily.</description>
-    </item>
-    
-    <item>
       <title>University plan to trim admin costs appears to be ahead of schedule</title>
-      <link>http://ethannelson.github.io/posts/administrative-expenses/</link>
+      <link>http://www.ethannelson.github.com/posts/administrative-expenses/</link>
       <pubDate>Fri, 23 Sep 2016 21:16:55 -0600</pubDate>
       
-      <guid>http://ethannelson.github.io/posts/administrative-expenses/</guid>
+      <guid>http://www.ethannelson.github.com/posts/administrative-expenses/</guid>
       <description>After a report accused the University of Minnesota of administrative bloat, the school planned to cut millions in spending. This is a story I helped explain with data analysis and a d3.js graphic with MN Daily reporter Kevin Beckman</description>
     </item>
     
