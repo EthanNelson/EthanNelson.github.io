@@ -98,7 +98,7 @@ function make_y_gridlines() {
 var div = d3.select("body").append("div") 
     .attr("class", "tooltip")       
     .style("opacity", 0);
-d3.csv("data/data.csv",function(d, i, columns) {
+d3.csv("data/africa-data.csv",function(d, i, columns) {
     d.Date = parseTime(d.Date);
     for (var i = 1, n = columns.length, c; i < n; ++i) d[c = columns[i]] = +d[c];
     return d;
