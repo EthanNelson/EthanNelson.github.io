@@ -2,68 +2,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ethan Nelson - Data Reporter</title>
-    <link>http://www.ethannelson.github.com/posts/</link>
+    <link>https://ethannelson.github.io/posts/</link>
     <description>Recent content in Posts on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Dec 2018 23:03:56 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 22 Dec 2018 21:19:59 -0600</lastBuildDate>
     
-	<atom:link href="http://www.ethannelson.github.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ethannelson.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Chinese Investment in Africa Has Exploded Since 2008</title>
+      <link>https://ethannelson.github.io/posts/africa/</link>
+      <pubDate>Sat, 22 Dec 2018 21:19:59 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/africa/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Americans are set to spend more on their pets than they have since 2001</title>
-      <link>http://www.ethannelson.github.com/posts/pets/</link>
+      <link>https://ethannelson.github.io/posts/pets/</link>
       <pubDate>Mon, 17 Dec 2018 23:03:56 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/pets/</guid>
+      <guid>https://ethannelson.github.io/posts/pets/</guid>
       <description>Inspired by this article by the New York Times, in which home decor and consumer news writer Michelle Higgins tells us about ways to spy on your dogs, I took a look at how much Americans spend on their domestic animals each year.
 Americans are set to spend more on their pets in 2018 then they have in any of the past 16 years. Collectively, Americans are expected to spend more than $72 billion this year according to data from the American Pet Products Association.</description>
     </item>
     
     <item>
       <title>Text Mining the Poetry of World War I</title>
-      <link>http://www.ethannelson.github.com/posts/wwi-poetry/</link>
+      <link>https://ethannelson.github.io/posts/wwi-poetry/</link>
       <pubDate>Mon, 29 Oct 2018 18:27:14 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/wwi-poetry/</guid>
+      <guid>https://ethannelson.github.io/posts/wwi-poetry/</guid>
       <description>Text Mining the Poetry of World War I
 Nov. 11, 2018 marks the 100th year since World War I ended. Soldiers, mostly educated British officers, transformed war poetry through uncompromisingly realistic depictions of life in the trenches. Poets like Siegfried Sassoon, Robert Graves, and Wilfred Owen, for one the first times in history, depicted war in horrific, dark language. An analysis using R&amp;rsquo;s tidy text library shows how they wrote about their experiences.</description>
     </item>
     
     <item>
+      <title>NY Times Bestsellers</title>
+      <link>https://ethannelson.github.io/posts/ny-times-react/</link>
+      <pubDate>Thu, 12 Jul 2018 19:40:04 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/ny-times-react/</guid>
+      <description>A simple React app that uses the NY Times Books API and the Google Books API to get information about best sellers, as well as reviews. This is a work in progress!
+ </description>
+    </item>
+    
+    <item>
       <title>Suggest-a-Poem</title>
-      <link>http://www.ethannelson.github.com/posts/poems/</link>
+      <link>https://ethannelson.github.io/posts/poems/</link>
       <pubDate>Tue, 17 Apr 2018 21:50:01 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/poems/</guid>
+      <guid>https://ethannelson.github.io/posts/poems/</guid>
       <description>This is a small node app that will return a poem based on an input word. This was based on Brandon Morelli&amp;rsquo;s tutorial.</description>
     </item>
     
     <item>
+      <title>American Place Names</title>
+      <link>https://ethannelson.github.io/posts/place-names/</link>
+      <pubDate>Sat, 14 Apr 2018 18:05:40 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/place-names/</guid>
+      <description>An interactive map of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns.
+Place Name Endings  path { stroke: #fff; } .counties { fill: none; stroke: #fff; }
+.states { fill: none; stroke: #fff; stroke-width: 2px; stroke-linejoin: round; } svg { }
+button { background-color: #555555; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; font-size: 16px; display: inline-block; clear:both; float: left; } button:hover { background-color: #ccc; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; color: #000;</description>
+    </item>
+    
+    <item>
+      <title>Equity-strapped sellers in Twin Cities keep starter homes in short supply</title>
+      <link>https://ethannelson.github.io/posts/negative-equity/</link>
+      <pubDate>Sat, 13 May 2017 21:35:58 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/negative-equity/</guid>
+      <description>This is a story that wasn&amp;rsquo;t heavy on visuals, but needed some heavy lifting in terms of data analysis. To help Jim Buchta, the Star Tribune&amp;rsquo;s real estate reporter, I wrote a python script using the pandas library to manipulate Minnesota Realtors data into a format that was easy to work with. From there, I used SQL and Excel to analyze the data.</description>
+    </item>
+    
+    <item>
       <title>Black coaches vanish from Big Ten basketball, once a model for diversity</title>
-      <link>http://www.ethannelson.github.com/posts/basketball/</link>
+      <link>https://ethannelson.github.io/posts/basketball/</link>
       <pubDate>Sat, 04 Mar 2017 19:30:50 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/basketball/</guid>
+      <guid>https://ethannelson.github.io/posts/basketball/</guid>
       <description>In 2017, there were no nonwhite men&amp;rsquo;s basketball coaches in the Big Ten, the first time that had happened since the &amp;lsquo;80s. This is a story exploring the historical racial makeup in men&amp;rsquo;s college basketball. I did the analysis and made the graphics for this story by college basketball beat reporter Marcus Fuller. This story won an award from the National Association of Black Journalists.</description>
     </item>
     
     <item>
       <title>High school football participation declining — but not just because of concussions</title>
-      <link>http://www.ethannelson.github.com/posts/high-school-football/</link>
+      <link>https://ethannelson.github.io/posts/high-school-football/</link>
       <pubDate>Thu, 02 Feb 2017 21:22:44 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/high-school-football/</guid>
+      <guid>https://ethannelson.github.io/posts/high-school-football/</guid>
       <description>Since 2003, the number of schools fielding 11-man football teams has held steady, but the number of players has dropped by about 4,000, according to data from the National Federation of State High School Associations. This is a story I wrote for the Minneapolis Star Tribune&amp;rsquo;s Data Drop feature, a series in which reporters explain the news via data and graphics, à la the New York Times&amp;rsquo; The Upshot.</description>
     </item>
     
     <item>
+      <title>Average Gophers football attendance falls after 30-year high</title>
+      <link>https://ethannelson.github.io/posts/gophers-football/</link>
+      <pubDate>Wed, 07 Dec 2016 21:28:24 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/gophers-football/</guid>
+      <description>After near-record numbers, average Gophers football attendance fell in 2016. The team&amp;rsquo;s coach chalked it up to the Gophs&amp;rsquo; poor record. I used a static graphic made with d3.js to explain the trend for the Minnesota Daily.
+ </description>
+    </item>
+    
+    <item>
       <title>University plan to trim admin costs appears to be ahead of schedule</title>
-      <link>http://www.ethannelson.github.com/posts/administrative-expenses/</link>
+      <link>https://ethannelson.github.io/posts/administrative-expenses/</link>
       <pubDate>Fri, 23 Sep 2016 21:16:55 -0600</pubDate>
       
-      <guid>http://www.ethannelson.github.com/posts/administrative-expenses/</guid>
+      <guid>https://ethannelson.github.io/posts/administrative-expenses/</guid>
       <description>After a report accused the University of Minnesota of administrative bloat, the school planned to cut millions in spending. This is a story I helped explain with data analysis and a d3.js graphic with MN Daily reporter Kevin Beckman</description>
     </item>
     

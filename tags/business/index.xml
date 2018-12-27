@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business on Ethan Nelson - Data Reporter</title>
+    <link>https://ethannelson.github.io/tags/business/</link>
+    <description>Recent content in Business on Ethan Nelson - Data Reporter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 May 2017 21:35:58 -0600</lastBuildDate>
+    
+	<atom:link href="https://ethannelson.github.io/tags/business/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Equity-strapped sellers in Twin Cities keep starter homes in short supply</title>
+      <link>https://ethannelson.github.io/posts/negative-equity/</link>
+      <pubDate>Sat, 13 May 2017 21:35:58 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/negative-equity/</guid>
+      <description>This is a story that wasn&amp;rsquo;t heavy on visuals, but needed some heavy lifting in terms of data analysis. To help Jim Buchta, the Star Tribune&amp;rsquo;s real estate reporter, I wrote a python script using the pandas library to manipulate Minnesota Realtors data into a format that was easy to work with. From there, I used SQL and Excel to analyze the data.</description>
+    </item>
+    
+  </channel>
+</rss>
