@@ -6,10 +6,20 @@
     <description>Recent content in D3.js on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Dec 2018 23:03:56 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 22 Dec 2018 21:19:59 -0600</lastBuildDate>
     
 	<atom:link href="https://ethannelson.github.io/tags/d3.js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chinese Investment in Africa Has Exploded Since 2008</title>
+      <link>https://ethannelson.github.io/posts/africa/</link>
+      <pubDate>Sat, 22 Dec 2018 21:19:59 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/africa/</guid>
+      <description>National Security Advisor John Bolton recently unveiled the Trump administration&amp;rsquo;s new strategy in Africa. It&amp;rsquo;s in part designed to counter the influence of Chinese investment in the continent. Below is a d3.js graphic exploring the trend. This graphic uses data from the Johns Hopkins School of Advanced International Studies&amp;rsquo; China Africa Research Initiative
+ </description>
+    </item>
     
     <item>
       <title>Americans are set to spend more on their pets than they have since 2001</title>
@@ -27,10 +37,7 @@ Americans are set to spend more on their pets in 2018 then they have in any of t
       <pubDate>Sat, 14 Apr 2018 18:05:40 -0600</pubDate>
       
       <guid>https://ethannelson.github.io/posts/place-names/</guid>
-      <description>An interactive map of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns.
-Place Name Endings  path { stroke: #fff; } .counties { fill: none; stroke: #fff; }
-.states { fill: none; stroke: #fff; stroke-width: 2px; stroke-linejoin: round; } svg { }
-button { background-color: #555555; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; font-size: 16px; display: inline-block; clear:both; float: left; } button:hover { background-color: #ccc; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; color: #000;</description>
+      <description>An [interactive map](&amp;ldquo;https://ethannelson.github.io/graphics/place-names.html&amp;quot;) of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns</description>
     </item>
     
     <item>
@@ -48,8 +55,7 @@ button { background-color: #555555; border: none; color: white; padding: 15px 32
       <pubDate>Wed, 07 Dec 2016 21:28:24 -0600</pubDate>
       
       <guid>https://ethannelson.github.io/posts/gophers-football/</guid>
-      <description>After near-record numbers, average Gophers football attendance fell in 2016. The team&amp;rsquo;s coach chalked it up to the Gophs&amp;rsquo; poor record. I used a static graphic made with d3.js to explain the trend for the Minnesota Daily.
- </description>
+      <description>After near-record numbers, average Gophers football attendance fell in 2016. The team&amp;rsquo;s coach chalked it up to the Gophs&amp;rsquo; poor record. I used a static graphic made with d3.js to explain the trend for the Minnesota Daily.</description>
     </item>
     
     <item>

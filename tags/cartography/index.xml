@@ -17,10 +17,7 @@
       <pubDate>Sat, 14 Apr 2018 18:05:40 -0600</pubDate>
       
       <guid>https://ethannelson.github.io/posts/place-names/</guid>
-      <description>An interactive map of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns.
-Place Name Endings  path { stroke: #fff; } .counties { fill: none; stroke: #fff; }
-.states { fill: none; stroke: #fff; stroke-width: 2px; stroke-linejoin: round; } svg { }
-button { background-color: #555555; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; font-size: 16px; display: inline-block; clear:both; float: left; } button:hover { background-color: #ccc; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; color: #000;</description>
+      <description>An [interactive map](&amp;ldquo;https://ethannelson.github.io/graphics/place-names.html&amp;quot;) of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns</description>
     </item>
     
   </channel>
