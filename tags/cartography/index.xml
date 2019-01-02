@@ -17,7 +17,7 @@
       <pubDate>Sat, 14 Apr 2018 18:05:40 -0600</pubDate>
       
       <guid>https://ethannelson.github.io/posts/place-names/</guid>
-      <description>An [interactive map](&amp;ldquo;https://ethannelson.github.io/graphics/place-names.html&amp;quot;) of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns</description>
+      <description>An interactive d3.js map of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns.</description>
     </item>
     
   </channel>

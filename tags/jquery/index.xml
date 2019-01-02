@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jquery on Ethan Nelson - Data Reporter</title>
+    <link>https://ethannelson.github.io/tags/jquery/</link>
+    <description>Recent content in Jquery on Ethan Nelson - Data Reporter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Apr 2016 12:27:02 -0600</lastBuildDate>
+    
+	<atom:link href="https://ethannelson.github.io/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where the U of Minn.&#39;s Student Government Candidates Stand</title>
+      <link>https://ethannelson.github.io/posts/msa/</link>
+      <pubDate>Mon, 04 Apr 2016 12:27:02 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/msa/</guid>
+      <description>This is a super-simple way I displayed the University of Minnesota&amp;rsquo;s student government candidates&amp;rsquo; positions on several of the most important issues in 2016. This just uses jQuery to hide and show the candidates&amp;rsquo; comments. Click here for the full story.</description>
+    </item>
+    
+  </channel>
+</rss>

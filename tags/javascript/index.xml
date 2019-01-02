@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Ethan Nelson - Data Reporter</title>
+    <link>https://ethannelson.github.io/tags/javascript/</link>
+    <description>Recent content in Javascript on Ethan Nelson - Data Reporter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Nov 2016 12:48:32 -0600</lastBuildDate>
+    
+	<atom:link href="https://ethannelson.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>See which U of M Classes Fared Best in Their Course Evaluations</title>
+      <link>https://ethannelson.github.io/posts/class-ratings/</link>
+      <pubDate>Wed, 16 Nov 2016 12:48:32 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/class-ratings/</guid>
+      <description>The data behind University of Minnesota students&amp;rsquo; course evaluations has been requested for years, but only recently became publicly available. This scatter plot, which didn&amp;rsquo;t look entirely great within the confines of the Daily&amp;rsquo;s CMS, details class evaluations for classes in 2015. Fun fact: Elementary Akkadian was one of the only courses to get a perfect score.</description>
+    </item>
+    
+    <item>
+      <title>Where the U of Minn.&#39;s Student Government Candidates Stand</title>
+      <link>https://ethannelson.github.io/posts/msa/</link>
+      <pubDate>Mon, 04 Apr 2016 12:27:02 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/msa/</guid>
+      <description>This is a super-simple way I displayed the University of Minnesota&amp;rsquo;s student government candidates&amp;rsquo; positions on several of the most important issues in 2016. This just uses jQuery to hide and show the candidates&amp;rsquo; comments. Click here for the full story.</description>
+    </item>
+    
+  </channel>
+</rss>

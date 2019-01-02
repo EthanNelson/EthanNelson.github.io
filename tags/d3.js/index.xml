@@ -37,7 +37,7 @@ Americans are set to spend more on their pets in 2018 then they have in any of t
       <pubDate>Sat, 14 Apr 2018 18:05:40 -0600</pubDate>
       
       <guid>https://ethannelson.github.io/posts/place-names/</guid>
-      <description>An [interactive map](&amp;ldquo;https://ethannelson.github.io/graphics/place-names.html&amp;quot;) of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns</description>
+      <description>An interactive d3.js map of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns.</description>
     </item>
     
     <item>
@@ -59,12 +59,48 @@ Americans are set to spend more on their pets in 2018 then they have in any of t
     </item>
     
     <item>
+      <title>See which U of M Classes Fared Best in Their Course Evaluations</title>
+      <link>https://ethannelson.github.io/posts/class-ratings/</link>
+      <pubDate>Wed, 16 Nov 2016 12:48:32 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/class-ratings/</guid>
+      <description>The data behind University of Minnesota students&amp;rsquo; course evaluations has been requested for years, but only recently became publicly available. This scatter plot, which didn&amp;rsquo;t look entirely great within the confines of the Daily&amp;rsquo;s CMS, details class evaluations for classes in 2015. Fun fact: Elementary Akkadian was one of the only courses to get a perfect score.</description>
+    </item>
+    
+    <item>
       <title>University plan to trim admin costs appears to be ahead of schedule</title>
       <link>https://ethannelson.github.io/posts/administrative-expenses/</link>
       <pubDate>Fri, 23 Sep 2016 21:16:55 -0600</pubDate>
       
       <guid>https://ethannelson.github.io/posts/administrative-expenses/</guid>
       <description>After a report accused the University of Minnesota of administrative bloat, the school planned to cut millions in spending. This is a story I helped explain with data analysis and a d3.js graphic with MN Daily reporter Kevin Beckman</description>
+    </item>
+    
+    <item>
+      <title>What Kills Minneapolis Residents?</title>
+      <link>https://ethannelson.github.io/posts/deaths/</link>
+      <pubDate>Fri, 16 Sep 2016 12:53:23 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/deaths/</guid>
+      <description>I used data from the City of Minneapolis and d3.js to make an interactive explaining what kills Minneapolis residents. A bit morbid, maybe. This is based on a dashboard from the d3 wiki.</description>
+    </item>
+    
+    <item>
+      <title>Minnesota sex-ed programs go unregulated</title>
+      <link>https://ethannelson.github.io/posts/sexed/</link>
+      <pubDate>Thu, 28 Apr 2016 13:00:58 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/sexed/</guid>
+      <description>This was a d3.js map that intitially ran alongside a Minnesota Daily project about sex ed. The Daily&amp;rsquo;s shift to a new CMS resulted in the graphic falling off, but it&amp;rsquo;s preserved on the newspaper&amp;rsquo;s github account.</description>
+    </item>
+    
+    <item>
+      <title>University of Minnesota Student Election Turnout on the Rise</title>
+      <link>https://ethannelson.github.io/posts/uminn-elections/</link>
+      <pubDate>Wed, 13 Apr 2016 12:44:37 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/uminn-elections/</guid>
+      <description>Voter turnout for the University of Minnesota&amp;rsquo;s student elections had been rising over the past few years in 2016. Using c3.js, I detailed this trend for both graduate students and undergraduates.</description>
     </item>
     
   </channel>

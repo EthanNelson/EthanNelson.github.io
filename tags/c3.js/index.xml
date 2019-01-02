@@ -20,5 +20,14 @@
       <description>In 2017, there were no nonwhite men&amp;rsquo;s basketball coaches in the Big Ten, the first time that had happened since the &amp;lsquo;80s. This is a story exploring the historical racial makeup in men&amp;rsquo;s college basketball. I did the analysis and made the graphics for this story by college basketball beat reporter Marcus Fuller. This story won an award from the National Association of Black Journalists.</description>
     </item>
     
+    <item>
+      <title>University of Minnesota Student Election Turnout on the Rise</title>
+      <link>https://ethannelson.github.io/posts/uminn-elections/</link>
+      <pubDate>Wed, 13 Apr 2016 12:44:37 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/uminn-elections/</guid>
+      <description>Voter turnout for the University of Minnesota&amp;rsquo;s student elections had been rising over the past few years in 2016. Using c3.js, I detailed this trend for both graduate students and undergraduates.</description>
+    </item>
+    
   </channel>
 </rss>
