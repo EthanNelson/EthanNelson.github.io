@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ethannelson.github.io/posts/crashes/</loc>
+    <lastmod>2019-02-03T20:35:51-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ethannelson.github.io/posts/africa/</loc>
     <lastmod>2018-12-22T21:19:59-06:00</lastmod>
   </url>
@@ -118,13 +123,13 @@
   
   <url>
     <loc>https://ethannelson.github.io/tags/d3.js/</loc>
-    <lastmod>2018-12-22T21:19:59-06:00</lastmod>
+    <lastmod>2019-02-03T20:35:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ethannelson.github.io/tags/data-analysis/</loc>
-    <lastmod>2018-12-22T21:19:59-06:00</lastmod>
+    <lastmod>2019-02-03T20:35:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,7 +147,7 @@
   
   <url>
     <loc>https://ethannelson.github.io/</loc>
-    <lastmod>2018-12-22T21:19:59-06:00</lastmod>
+    <lastmod>2019-02-03T20:35:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,6 +164,12 @@
   </url>
   
   <url>
+    <loc>https://ethannelson.github.io/tags/mapbox/</loc>
+    <lastmod>2019-02-03T20:35:51-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ethannelson.github.io/tags/pandas/</loc>
     <lastmod>2017-05-13T21:35:58-06:00</lastmod>
     <priority>0</priority>
@@ -166,7 +177,7 @@
   
   <url>
     <loc>https://ethannelson.github.io/posts/</loc>
-    <lastmod>2018-12-22T21:19:59-06:00</lastmod>
+    <lastmod>2019-02-03T20:35:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Dec 2018 21:19:59 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 03 Feb 2019 20:35:51 -0600</lastBuildDate>
     
 	<atom:link href="https://ethannelson.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chicago Traffic Crash Map</title>
+      <link>https://ethannelson.github.io/posts/crashes/</link>
+      <pubDate>Sun, 03 Feb 2019 20:35:51 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/crashes/</guid>
+      <description>A map of traffic crashes in Chicago, according to time of day and estimated cost of damage. This make use of a combination of d3.js and Mapbox.
+ </description>
+    </item>
     
     <item>
       <title>Chinese Investment in Africa Has Exploded Since 2008</title>

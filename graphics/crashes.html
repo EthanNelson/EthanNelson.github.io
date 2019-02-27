@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
+<style> 
+  #map-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .map-overlay {
+      font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      position: sticky;
+      width: 20%;
+      left: 15%;
+      padding: 10px;
+  }
+
+  .map-overlay .map-overlay-inner {
+      background-color: #fff;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+      border-radius: 3px;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+
+  .map-overlay h2 {
+      line-height: 24px;
+      display: block;
+      margin: 0 0 10px;
+  }
+
+  .map-overlay input {
+      background-color: transparent;
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      margin: 0;
+      cursor: ew-resize;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Lora', serif;    
+  }
+
+  #map {
+      position: relative;
+      width: 70%;
+      height: 700px;
+  }
+
+  .bar {
+      fill: steelblue;
+  }
+
+  .grid line {
+      stroke: lightgrey;
+      stroke-opacity: 0.7;
+      shape-rendering: crispEdges;
+  }
+
+  .grid path {
+      stroke-width: 0;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  #chart-container {
+      text-align: center;
+/*      display: flex;
+*/      justify-content: center;
+      align-items: center;
+  }
+
+  p {
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+</style>
+<body>
+<script src="//d3js.org/d3.v4.min.js"></script>
+
+<h1>Chicagoans are Most Likely to Get in a Car Accident from Following too Closely</h1>
+<p>Chicago drivers experienced 9,400 crashes so far in 2019 -- about half of the number of crashes compared to this time last year, according to data from the City of Chicago. But according to traffic data from an outside firm released this month, traffic in Chicago is getting worse.</p>
+<p>Chicago now has the third-worst traffic in the U.S., according to a study by transportation data firm INRIX. That means Chicago's less congested than Boston and Washington, D.C., but more congested than New York and Los Angeles.</p>
+<p>The City of Chicago puts its traffic crash data on its open data portal. Take a deeper look at the data below.</p>
+
+<h1>Most Crashes' Causes are Unknown</h1>
+<div class="chart-container">
+  <div id='causes_chart'></div>
+<!--   fdsgfds
+  
+<h1>Less than One Percent of Crashes are Fatal</h1>
+  <div id='injuries_chart'></div>
+</div> -->
+
+<p>The city also reports the location of each traffic crash, along with each crash's estimated damage, cause, weather and time of day. Not surprisingly, most crashes occur during rush hour. The below map shows all crashes since Jan. 1, 2019. Use the slider to see where crashes occur based on the hour of the day.</p>
+
+<script>
+var margin = {
+        top: 20,
+        //right: 20,
+        bottom: 50,
+        left: 280
+    },
+    width = 960,
+    height = 500 - margin.top - margin.bottom;
+
+var y = d3.scaleBand()
+    .range([height, 0])
+    .padding(0.1);
+
+var x = d3.scaleLinear()
+    .range([0, width]);
+
+var svg = d3.select("#causes_chart").append("svg")
+    .attr("width", width)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+function make_x_gridlines() {
+    return d3.axisBottom(x)
+        .ticks(5)
+}
+
+function make_y_gridlines() {
+    return d3.axisLeft(y)
+        .ticks(5)
+}
+
+d3.csv('causes.csv', function(err, data) {
+    if (err) throw err;
+
+    data.forEach(function(d) {
+        d["total"] = +d.total;
+    });
+    console.log(data[0]);
+
+    x.domain([0, d3.max(data, function(d) {
+        return d.total;
+    })])
+    y.domain(data.map(function(d) {
+        return d.cause;
+    }));
+
+    svg.append("g")
+        .attr("class", "grid")
+        .attr("transform", "translate(0," + height + ")")
+        .call(make_x_gridlines()
+            .tickSize(-height)
+            .tickFormat("")
+        )
+
+    svg.append("g")
+        .attr("class", "grid")
+        .call(make_y_gridlines()
+            .tickSize(-width)
+            .tickFormat("")
+        )
+
+    svg.selectAll(".bar")
+        .data(data)
+        .enter().append("rect")
+        .attr("class", "bar")
+        .attr("width", function(d) {
+            return x(d.total);
+        })
+        .attr("y", function(d) {
+            return y(d.cause);
+        })
+        .attr("height", y.bandwidth());
+
+    svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+
+    svg.append("g")
+        .call(d3.axisLeft(y));
+});
+
+</script>
+<!-- <script>
+
+var margin = {top: 20, right: 20, bottom: 30, left: 280},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var y2 = d3.scaleBand()
+          .range([height, 0])
+          .padding(0.1);
+
+var x2 = d3.scaleLinear()
+          .range([0, width]);
+          
+var svg2 = d3.select("#injuries_chart").append("svg2")
+    .attr("width", width)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g2")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+function make_x_gridlines2() {   
+    return d3.axisBottom(x2)
+        .ticks(5)
+}
+
+function make_y_gridlines2() {   
+    return d3.axisLeft(y2)
+        .ticks(5)
+}
+
+d3.csv('injuries.csv', function(err, data2) {
+    if (err) throw err;
+
+    data2.forEach(function(d) {
+        d["count"] = +d.count;
+    });
+    console.log(data2[0]);
+
+    x2.domain([0, d3.max(data2, function(d) {
+        return d.count;
+    })])
+    y2.domain(data2.map(function(d) {
+        return d.injuries;
+    }));
+
+    svg2.append("g")
+        .attr("class", "grid")
+        .attr("transform", "translate(0," + height + ")")
+        .call(make_x_gridlines()
+            .tickSize(-height)
+            .tickFormat("")
+        )
+
+    svg2.append("g")
+        .attr("class", "grid")
+        .call(make_y_gridlines()
+            .tickSize(-width)
+            .tickFormat("")
+        )
+
+    svg2.selectAll(".bar")
+        .data(data2)
+        .enter().append("rect")
+        .attr("class", "bar")
+        .attr("width", function(d) {
+            return x2(d.count);
+        })
+        .attr("y", function(d) {
+            return y2(d.injuries);
+        })
+        .attr("height", y.bandwidth());
+
+    svg2.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x2));
+
+    svg2.append("g")
+        .call(d3.axisLeft(y2));
+});
+
+</script>
+ -->
+</script>
+
+<div id="map-container">
+  <div id='map'></div>
+</div>
+
+<div class='map-overlay top'>
+    <div class='map-overlay-inner'>
+        <h2>Chicago Crashes by Cost of Damage - 2019</h2>
+        <label id='hour'></label>
+        <input id='slider' type='range' min='0' max='24' step='1' value='0' />
+    </div>
+</div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
+
+var bounds = [
+    [-87.985157, 41.709021],
+    [-87.581095, 42.030420]
+];
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/dark-v9',
+    center: [-87.642442, 41.870667],
+    zoom: 10,
+    LngLatBounds: bounds
+});
+
+var hours = [
+    "12 a.m.", "1 a.m.", "2 a.m.", "3 a.m.", "4 a.m.", "5 a.m.", "6 a.m.", "7 a.m.", "8 a.m.", "9 a.m.", "10 a.m.", "11 a.m.", "12 p.m.", "1 p.m.", "2 p.m.", "3 p.m.", "4 p.m.", "5 p.m.", "6 p.m.", "7 p.m.", "8 p.m.", "9 p.m.", "10 p.m.", "11 p.m."
+];
+
+function filterBy(hour) {
+
+    var filters = ['==', 'hour', hour];
+    map.setFilter('crash-point', filters);
+
+    document.getElementById('hour').textContent = "Hour: " + hours[hour];
+}
+
+map.on('load', function() {
+
+    d3.json('https://data.cityofchicago.org/resource/85ca-t3if.geojson', function(err, data) {
+        if (err) throw err;
+
+        data.features = data.features.map(function(d) {
+            d.properties.hour = parseInt(d.properties.crash_hour, 10);
+            return d;
+        });
+
+        data.features = data.features.map(function(d) {
+            d.properties.injuries = parseInt(d.properties.injuries_non_incapacitating, 10) + parseInt(d.properties.injuries_incapacitating, 10) + parseInt(d.properties.injuries_fatal, 10);
+            return d;
+        });
+
+        map.addSource("crashes", {
+            type: "geojson",
+            data: data,
+        });
+        console.log(data);
+
+        map.addLayer({
+            id: "crash-point",
+            type: "circle",
+            source: "crashes",
+            paint: {
+                "circle-color": [
+                    'match',
+                    ['get', 'damage'],
+                    '$500 OR LESS', '#fbb03b',
+                    '$501 - $1,500', '#223b53',
+                    'OVER $1,500', '#e55e5e',
+                    /* other */
+                    '#ccc'
+                ],
+                "circle-radius": 4,
+                "circle-stroke-width": 1,
+                "circle-stroke-color": "#fff"
+            }
+        });
+
+        map.on('mouseenter', 'crash-point', function() {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'crash-point', function() {
+            map.getCanvas().style.cursor = '';
+        });
+
+        map.on('click', 'crash-point', function(e) {
+            new mapboxgl.Popup()
+                .setLngLat(e.features[0].geometry.coordinates)
+                .setHTML('<b>Date:</b> ' + e.features[0].properties.crash_date + '<br>' +
+                    '<b>Address</b>: ' + e.features[0].properties.street_no + " " + e.features[0].properties.street_no + " " + e.features[0].properties.street_name + '<br>' +
+                    '<b>Description</b>: ' + e.features[0].properties.first_crash_type + '<br>' +
+                    '<b>Damage</b>: ' + e.features[0].properties.damage + '<br>' +
+                    '<b>Weather</b>: ' + e.features[0].properties.weather_condition + '<br>' +
+                    '<b>Injuries</b>: ' + e.features[0].properties.injuries)
+                .addTo(map);
+        });
+
+        filterBy(0);
+
+        document.getElementById('slider').addEventListener('input', function(e) {
+            var hour = parseInt(e.target.value, 10);
+            console.log(e.target.value);
+            filterBy(hour);
+        });
+
+    });
+
+});
+</script>
+
+</body>

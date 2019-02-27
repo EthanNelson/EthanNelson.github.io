@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mapbox on Ethan Nelson - Data Reporter</title>
+    <link>https://ethannelson.github.io/tags/mapbox/</link>
+    <description>Recent content in Mapbox on Ethan Nelson - Data Reporter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Feb 2019 20:35:51 -0600</lastBuildDate>
+    
+	<atom:link href="https://ethannelson.github.io/tags/mapbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chicago Traffic Crash Map</title>
+      <link>https://ethannelson.github.io/posts/crashes/</link>
+      <pubDate>Sun, 03 Feb 2019 20:35:51 -0600</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/crashes/</guid>
+      <description>A map of traffic crashes in Chicago, according to time of day and estimated cost of damage. This make use of a combination of d3.js and Mapbox.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
