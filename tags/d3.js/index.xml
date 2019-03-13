@@ -6,10 +6,20 @@
     <description>Recent content in D3.js on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Feb 2019 20:35:51 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 19:34:06 -0500</lastBuildDate>
     
 	<atom:link href="https://ethannelson.github.io/tags/d3.js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Farm Bankruptcies in the Upper Midwest</title>
+      <link>https://ethannelson.github.io/posts/bankruptcies/</link>
+      <pubDate>Tue, 12 Mar 2019 19:34:06 -0500</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/bankruptcies/</guid>
+      <description>Increasing competition from emerging economies like Brazil and Russia and decreasing prices are creating problems for Midwestern farmers. More farms filed for bankruptcy 2018 than the U.S. has seen in years. This is a map detailing that trend. It makes use of d3.js, Mapstarter, and topojson.
+ </description>
+    </item>
     
     <item>
       <title>Chicago Traffic Crash Map</title>

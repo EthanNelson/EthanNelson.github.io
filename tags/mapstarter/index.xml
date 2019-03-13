@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cartography on Ethan Nelson - Data Reporter</title>
-    <link>https://ethannelson.github.io/tags/cartography/</link>
-    <description>Recent content in Cartography on Ethan Nelson - Data Reporter</description>
+    <title>Mapstarter on Ethan Nelson - Data Reporter</title>
+    <link>https://ethannelson.github.io/tags/mapstarter/</link>
+    <description>Recent content in Mapstarter on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 Mar 2019 19:34:06 -0500</lastBuildDate>
     
-	<atom:link href="https://ethannelson.github.io/tags/cartography/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ethannelson.github.io/tags/mapstarter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://ethannelson.github.io/posts/bankruptcies/</guid>
       <description>Increasing competition from emerging economies like Brazil and Russia and decreasing prices are creating problems for Midwestern farmers. More farms filed for bankruptcy 2018 than the U.S. has seen in years. This is a map detailing that trend. It makes use of d3.js, Mapstarter, and topojson.
  </description>
-    </item>
-    
-    <item>
-      <title>American Place Names</title>
-      <link>https://ethannelson.github.io/posts/place-names/</link>
-      <pubDate>Sat, 14 Apr 2018 18:05:40 -0600</pubDate>
-      
-      <guid>https://ethannelson.github.io/posts/place-names/</guid>
-      <description>An interactive d3.js map of the location quotient of select place name components by county. This is not an exhaustive list of place names, but it does show some neat patterns.</description>
     </item>
     
   </channel>
