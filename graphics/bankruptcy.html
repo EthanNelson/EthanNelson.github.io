@@ -61,7 +61,7 @@ var zoom = d3.behavior.zoom()
 
 svg.call(zoom);
 
-d3.json("gz_2010_us_040_00_500k.topojson",function(error,geodata) {
+d3.json("data/gz_2010_us_040_00_500k.topojson",function(error,geodata) {
   if (error) return console.log(error); //unknown error, check the console
 console.log(geodata);
   //Create a path for each map feature in the data
