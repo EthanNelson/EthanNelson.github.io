@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ethannelson.github.io/posts/voyageurs/</loc>
+    <lastmod>2019-05-08T19:31:03-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ethannelson.github.io/posts/bankruptcies/</loc>
     <lastmod>2019-03-12T19:34:06-05:00</lastmod>
   </url>
@@ -116,6 +121,12 @@
   </url>
   
   <url>
+    <loc>https://ethannelson.github.io/tags/carto/</loc>
+    <lastmod>2019-05-08T19:31:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ethannelson.github.io/tags/cartography/</loc>
     <lastmod>2019-03-12T19:34:06-05:00</lastmod>
     <priority>0</priority>
@@ -134,7 +145,7 @@
   
   <url>
     <loc>https://ethannelson.github.io/tags/data-analysis/</loc>
-    <lastmod>2019-03-12T19:34:06-05:00</lastmod>
+    <lastmod>2019-05-08T19:31:03-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -152,7 +163,7 @@
   
   <url>
     <loc>https://ethannelson.github.io/</loc>
-    <lastmod>2019-03-12T19:34:06-05:00</lastmod>
+    <lastmod>2019-05-08T19:31:03-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -170,7 +181,7 @@
   
   <url>
     <loc>https://ethannelson.github.io/tags/mapbox/</loc>
-    <lastmod>2019-02-03T20:35:51-06:00</lastmod>
+    <lastmod>2019-05-08T19:31:03-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -188,7 +199,7 @@
   
   <url>
     <loc>https://ethannelson.github.io/posts/</loc>
-    <lastmod>2019-03-12T19:34:06-05:00</lastmod>
+    <lastmod>2019-05-08T19:31:03-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -212,7 +223,7 @@
   
   <url>
     <loc>https://ethannelson.github.io/tags/react/</loc>
-    <lastmod>2018-07-12T19:40:04-06:00</lastmod>
+    <lastmod>2019-05-08T19:31:03-05:00</lastmod>
     <priority>0</priority>
   </url>
   

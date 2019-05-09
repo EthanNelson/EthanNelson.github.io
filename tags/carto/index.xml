@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>React on Ethan Nelson - Data Reporter</title>
-    <link>https://ethannelson.github.io/tags/react/</link>
-    <description>Recent content in React on Ethan Nelson - Data Reporter</description>
+    <title>Carto on Ethan Nelson - Data Reporter</title>
+    <link>https://ethannelson.github.io/tags/carto/</link>
+    <description>Recent content in Carto on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 08 May 2019 19:31:03 -0500</lastBuildDate>
     
-	<atom:link href="https://ethannelson.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ethannelson.github.io/tags/carto/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://ethannelson.github.io/posts/voyageurs/</guid>
       <description>I made a Mapbox map using data from the Centre de Patrimonie, an organization dedicated to preserving Manitoba&amp;rsquo;s francophone history. The Centre has collected a large database of voyageur contracts signed in Montreal between 1714 and 1830. Click here or on the image below to explore who the voyageurs were, where they went, and what they did.</description>
-    </item>
-    
-    <item>
-      <title>NY Times Bestsellers</title>
-      <link>https://ethannelson.github.io/posts/ny-times-react/</link>
-      <pubDate>Thu, 12 Jul 2018 19:40:04 -0600</pubDate>
-      
-      <guid>https://ethannelson.github.io/posts/ny-times-react/</guid>
-      <description>A simple React app that uses the NY Times Books API and the Google Books API to get information about best sellers, as well as reviews. This is a work in progress!
- </description>
     </item>
     
   </channel>

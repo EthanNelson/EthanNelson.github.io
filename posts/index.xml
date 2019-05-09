@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ethan Nelson - Data Reporter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Mar 2019 19:34:06 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 19:31:03 -0500</lastBuildDate>
     
 	<atom:link href="https://ethannelson.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Explore Voyageur Canoe Routes</title>
+      <link>https://ethannelson.github.io/posts/voyageurs/</link>
+      <pubDate>Wed, 08 May 2019 19:31:03 -0500</pubDate>
+      
+      <guid>https://ethannelson.github.io/posts/voyageurs/</guid>
+      <description>I made a Mapbox map using data from the Centre de Patrimonie, an organization dedicated to preserving Manitoba&amp;rsquo;s francophone history. The Centre has collected a large database of voyageur contracts signed in Montreal between 1714 and 1830. Click here or on the image below to explore who the voyageurs were, where they went, and what they did.</description>
+    </item>
     
     <item>
       <title>Farm Bankruptcies in the Upper Midwest</title>
